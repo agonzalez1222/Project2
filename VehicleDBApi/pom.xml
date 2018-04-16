@@ -10,28 +10,7 @@
 
     <name>vehicleapi</name>
     <description>Demo project for Spring Boot</description>
-
-<<<<<<< HEAD
-	<plugin>
-=======
-    <plugin>
->>>>>>> 878da9b2c280f3fa7514b3b23e05529efb0e5810
-	<groupId>com.google.cloud.tools</groupId>
-	<artifactId>appengine-maven-plugin</artifactId>
-	<version>1.2.1</version>
-    </plugin>
-
-    <dependency>
-        <groupId>commons-io</groupId>
-        <artifactId>commons-io</artifactId>
-        <version>2.5</version>
-<<<<<<< HEAD
-    </dependency>
-
-=======
-    </dependency>     
-         
->>>>>>> 878da9b2c280f3fa7514b3b23e05529efb0e5810
+            
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
@@ -80,5 +59,16 @@
         </plugins>
     </build>
 
+	<plugin>
+	<groupId>com.google.cloud.tools</groupId>
+	<artifactId>appengine-maven-plugin</artifactId>
+	<version>1.2.1</version>
+    </plugin>
+
+    <dependency>
+        <groupId>commons-io</groupId>
+        <artifactId>commons-io</artifactId>
+        <version>2.5</version>
+    </dependency>  
 
 </project>
