@@ -9,19 +9,7 @@
     <packaging>jar</packaging>
 
     <name>vehicleapi</name>
-    <description>Demo project for Spring Boot</description>
-
-    <plugin>
-	<groupId>com.google.cloud.tools</groupId>
-	<artifactId>appengine-maven-plugin</artifactId>
-	<version>1.2.1</version>
-    </plugin>
-
-    <dependency>
-        <groupId>commons-io</groupId>
-        <artifactId>commons-io</artifactId>
-        <version>2.5</version>
-    </dependency>     
+    <description>Demo project for Spring Boot</description>  
          
     <parent>
         <groupId>org.springframework.boot</groupId>
