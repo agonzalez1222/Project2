@@ -46,26 +46,4 @@ public class VehicleController
         return new ResponseEntity(HttpStatus.OK);
     }
 
-    @RequestMapping(value = "/getLatestVehicles", method = RequestMethod.GET)
-    public List<Vehicle> getLatestVehicles() throws IOException
-    {
-        int id = 15;
-        List<Vehicle> latestVehicles = new ArrayList<>();
-        Vehicle newVehicle = new Vehicle();
-
-        do
-        {
-            id = vehicleDao.getById(id).getID();
-            newVehicle = vehicleDao.getById(id);
-            latestVehicles.add(newVehicle);
-            id++;
-//            for(int i = 0; i < latestVehicles.size(); i++)
-//            {
-//
-//            }
-            return latestVehicles;
-        }
-        while(id <= vehicleDao.getById(id).getID());
-
-    }
 }
